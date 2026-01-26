@@ -10,3 +10,20 @@ Morse-Decoder-GUI-Lab/
 ```
 
 ---
+
+#### ⚠️ Disclaimer
+
+This project is intended for **educational and learning purposes only**.
+
+Morse code is **not encryption** and should not be used for secure communication.
+The goal is to improve **analytical thinking**, **decoding skills**, and **tool-building fundamentals**.
+
+---
+
+#### 🪪 Author
+
+> **Creator: Shakal Bhau**
+
+> **GitHub: [ShakalBhau0001](https://github.com/ShakalBhau0001)**
+
+---
