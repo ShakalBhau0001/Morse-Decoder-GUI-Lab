@@ -17,7 +17,7 @@ It is especially useful for **puzzle solving**, **CTF-style thinking**, and **fo
 ```bash
 Morse-Decoder-GUI-Lab/
 │
-├── morse_decoder.py        # Main CLI application
+├── morse_decoder.py        # Main GUI application
 └── README.md               # Project documentation
 ```
 
@@ -36,21 +36,21 @@ Morse-Decoder-GUI-Lab/
 - Ignores unsupported or invalid sequences safely
 
 ## 🧪 Learning-Oriented Design
-- Clean dictionary-based mapping
-- Easy-to-read conversion logic
-- Ideal for experimentation and extension
+- Clean and minimal dark-themed interface
+- Same logic as CLI, wrapped with GUI
+- Clear separation of logic layer and UI layer
+- Ideal base for future extensions
 
 ---
 
 #### 🛠 Technologies Used
 
-| Technology                       | Role                      |
-| -------------------------------- | ------------------------- |
-| **Python 3**                     | Core programming language |
-| **Dictionary Mapping**           | Morse ↔ Text conversion   |
-| **CLI (Command Line Interface)** | User interaction          |
-
-> No external libraries are required.
+| Technology             | Role                      |
+| ---------------------- | ------------------------- |
+| **Python 3**           | Core programming language |
+| **customtkinter**      | Modern GUI framework      |
+| **Dictionary Mapping** | Morse ↔ Text conversion   |
+| **GUI (Desktop App)**  | User interaction          |
 
 ---
 
@@ -58,9 +58,11 @@ Morse-Decoder-GUI-Lab/
 
 ```bash
 Python 3.7+
+pip install customtkinter
 ```
 
-This tool uses **only standard Python libraries**.
+Only **customtkinter** is required externally.
+All other modules are standard Python libraries.
 
 ---
 
@@ -69,13 +71,13 @@ This tool uses **only standard Python libraries**.
 ## 1️⃣ Clone the repository
 
 ```bash
-git clone https://github.com/ShakalBhau0001/Morse-Decoder-CLI-Lab.git
+git clone https://github.com/ShakalBhau0001/Morse-Decoder-GUI-Lab.git
 ```
 
 ## 2️⃣ Enter the project directory
 
 ```bash
-cd Morse-Decoder-CLI-Lab
+cd Morse-Decoder-GUI-Lab
 ```
 
 ## 3️⃣ Run the CLI tool
@@ -86,42 +88,17 @@ python morse_decoder.py
 
 ## ▶️ Usage
 
-After running the program, you will see:
+#### 🔐 Text → Morse
 
-```bash
-🔤 International Morse Code 🔤
---------------------
-1. Text → Morse
-2. Morse → Text
-```
+1. Enter normal text in the input box
+2. Click **Text → Morse**
+3. Morse code output appears in the output box
 
-## 🔐 Text → Morse Example
+## 🔓 Morse → Text 
 
-**Input:**
-
-```bash
-HELLO WORLD
-```
-
-**Output:**
-
-```bash
-.... . .-.. .-.. --- / .-- --- .-. .-.. -..
-```
-
-## 🔓 Morse → Text Example
-
-**Input:**
-
-```bash
-.... . .-.. .-.. --- / .-- --- .-. .-.. -..
-```
-
-**Output:**
-
-```bash
-HELLO WORLD
-```
+1. Enter space-separated Morse code (`/` for space)
+2. Click **Morse → Text**
+3. Decoded text appears instantly
 
 ---
 
