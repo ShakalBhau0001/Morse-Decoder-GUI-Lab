@@ -131,8 +131,8 @@ python morse_decoder.py
 ---
 
 #### 🌟 Future Enhancements
-- Auto-spacing / brute-force decoding
-- Support for continuous Morse (no spaces)
+- Auto-decoding Morse without spaces
+- Display multiple possible decoding outputs
 - File-based input/output
 - Morse signal visualization
 - Integration with steganography tools
@@ -141,16 +141,16 @@ python morse_decoder.py
 
 #### 📦 Extended / Combined Tools
 
-This repository focuses **only on Morse code encoding & decoding** as a **logic-building CLI lab**.
+This repository focuses **only on Morse code encoding & decoding** using a **GUI-based learning approach**.
 
-For a **combined and advanced implementation** involving:
+For a **combined and advanced GUI implementation** involving:
 - Image steganography
 - Audio steganography
 - Encrypted payload embedding
 
 please refer to:
 
-> 🔗 **[StegaVault-CLI](https://github.com/ShakalBhau0001/StegaVault-CLI)**
+> 🔗 **[StegaVault-GUI](https://github.com/ShakalBhau0001/StegaVault-GUI)**
 
 ---
 
