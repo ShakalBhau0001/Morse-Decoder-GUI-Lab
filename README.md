@@ -170,3 +170,9 @@ The goal is to improve **analytical thinking**, **decoding skills**, and **tool-
 > **GitHub: [ShakalBhau0001](https://github.com/ShakalBhau0001)**
 
 ---
+
+## ⭐ Support
+
+If you like this project, consider giving it a ⭐ on GitHub!
+
+---
