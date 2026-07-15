@@ -17,8 +17,10 @@ It is especially useful for **puzzle solving**, **CTF-style thinking**, and **fo
 ```bash
 Morse-Decoder-GUI-Lab/
 │
-├── morse_decoder.py        # Main GUI application
-└── README.md               # Project documentation
+├── assets/              # Screenshots
+├── main.py              # Main GUI application
+├── requirements.txt     # Project Dependencies
+└── README.md            # Project documentation
 ```
 
 ---
@@ -61,6 +63,12 @@ Python 3.7+
 pip install customtkinter
 ```
 
+##### OR
+
+```
+pip install -r requirements.txt
+```
+
 Only **customtkinter** is required externally.
 All other modules are standard Python libraries.
 
@@ -83,7 +91,7 @@ cd Morse-Decoder-GUI-Lab
 ## 3️⃣ Run the CLI tool
 
 ```bash
-python morse_decoder.py
+python main.py
 ```
 
 ## ▶️ Usage
@@ -142,7 +150,6 @@ python morse_decoder.py
 #### 📦 Extended / Combined Tools
 
 This repository focuses **only on Morse code encoding & decoding** using a **GUI-based learning approach**.
-
 For a **combined and advanced GUI implementation** involving:
 - Image steganography
 - Audio steganography
@@ -160,6 +167,18 @@ This project is intended for **educational and learning purposes only**.
 
 Morse code is **not encryption** and should not be used for secure communication.
 The goal is to improve **analytical thinking**, **decoding skills**, and **tool-building fundamentals**.
+
+---
+
+## 📸 Preview
+
+### 1. Text → Morse
+
+![Rich CLI Preview](assets/Text.png)
+
+### 2. Morse → Text
+
+![Rich CLI Preview](assets/Morse.png)
 
 ---
 
