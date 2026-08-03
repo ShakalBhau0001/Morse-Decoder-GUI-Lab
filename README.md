@@ -1,6 +1,6 @@
 # 🔤 Morse-Decoder-GUI-Lab 🧠
 
-A Python-based **Morse Code GUI Tool** built using customtkinter that allows users to **convert text into International Morse Code** and **decode Morse code back into readable text** through an intuitive graphical interface
+A Python-based **Morse Code GUI Tool** built using **customtkinter** that allows users to **convert text into International Morse Code** and **decode Morse code back into readable text** through an intuitive graphical interface
 
 This project is designed as a **learning lab** to improve:
 - Encoding & decoding logic
@@ -12,7 +12,7 @@ It is especially useful for **puzzle solving**, **CTF-style thinking**, and **fo
 
 ---
 
-#### 🧱 Project Structure
+## 🧱 Project Structure
 
 ```bash
 Morse-Decoder-GUI-Lab/
@@ -25,19 +25,19 @@ Morse-Decoder-GUI-Lab/
 
 ---
 
-#### ✨ Features
+## ✨ Features
 
-## 🔐 Text → Morse Conversion
+### 🔐 Text → Morse Conversion
 - Converts **letters**, **numbers**, and **punctuation** into **International Morse Code**
 - Uses standard dot (`.`) and dash (`-`) notation
 - Represents word gaps using `/`
 
-## 🔓 Morse → Text Decoding
+### 🔓 Morse → Text Decoding
 - Decodes space-separated Morse code
 - Converts / back into spaces
 - Ignores unsupported or invalid sequences safely
 
-## 🧪 Learning-Oriented Design
+### 🧪 Learning-Oriented Design
 - Clean and minimal dark-themed interface
 - Same logic as CLI, wrapped with GUI
 - Clear separation of logic layer and UI layer
@@ -45,7 +45,7 @@ Morse-Decoder-GUI-Lab/
 
 ---
 
-#### 🛠 Technologies Used
+## 🛠 Technologies Used
 
 | Technology             | Role                      |
 | ---------------------- | ------------------------- |
@@ -56,14 +56,14 @@ Morse-Decoder-GUI-Lab/
 
 ---
 
-#### 📌 Requirements
+## 📌 Requirements
 
 ```bash
 Python 3.7+
 pip install customtkinter
 ```
 
-##### OR
+### OR
 
 ```
 pip install -r requirements.txt
@@ -74,27 +74,27 @@ All other modules are standard Python libraries.
 
 ---
 
-#### ▶️ How to Run
+## ▶️ How to Run
 
-## 1️⃣ Clone the repository
+### 1️⃣ Clone the repository
 
 ```bash
 git clone https://github.com/ShakalBhau0001/Morse-Decoder-GUI-Lab.git
 ```
 
-## 2️⃣ Enter the project directory
+### 2️⃣ Enter the project directory
 
 ```bash
 cd Morse-Decoder-GUI-Lab
 ```
 
-## 3️⃣ Run the CLI tool
+### 3️⃣ Run the CLI tool
 
 ```bash
 python main.py
 ```
 
-## ▶️ Usage
+### ▶️ Usage
 
 #### 🔐 Text → Morse
 
@@ -102,7 +102,7 @@ python main.py
 2. Click **Text → Morse**
 3. Morse code output appears in the output box
 
-## 🔓 Morse → Text 
+#### 🔓 Morse → Text 
 
 1. Enter space-separated Morse code (`/` for space)
 2. Click **Morse → Text**
@@ -110,27 +110,27 @@ python main.py
 
 ---
 
-#### ⚙️ How It Works
+## ⚙️ How It Works
 
-## 1️⃣ Morse Mapping
+### 1️⃣ Morse Mapping
 - A dictionary maps characters to Morse symbols:
   ```python
   "A": ".-", "B": "-...", "C": "-.-."
   ```
 
-## 2️⃣ Encoding
+### 2️⃣ Encoding
 - Input text is converted to uppercase
 - Each character is replaced by its Morse equivalent
 - Output is space-separated Morse code
 
-## 3️⃣ Decoding
+### 3️⃣ Decoding
 - Morse input is split by spaces
 - Reverse dictionary lookup converts Morse back to text
 - `/` is translated back into a space
 
 ---
 
-#### ⚠️ Limitations
+## ⚠️ Limitations
 - Morse input **must be space-separated**
 - Continuous Morse without spacing is **ambiguous**
 - This tool does **not brute-force spacing**
@@ -138,7 +138,7 @@ python main.py
 
 ---
 
-#### 🌟 Future Enhancements
+## 🌟 Future Enhancements
 - Auto-decoding Morse without spaces
 - Display multiple possible decoding outputs
 - File-based input/output
@@ -147,7 +147,7 @@ python main.py
 
 ---
 
-#### 📦 Extended / Combined Tools
+## 📦 Extended / Combined Tools
 
 This repository focuses **only on Morse code encoding & decoding** using a **GUI-based learning approach**.
 For a **combined and advanced GUI implementation** involving:
@@ -161,12 +161,12 @@ please refer to:
 
 ---
 
-#### ⚠️ Disclaimer
+## ⚠️ Disclaimer
 
-This project is intended for **educational and learning purposes only**.
+> This project is intended for **educational and learning purposes only**.
 
-Morse code is **not encryption** and should not be used for secure communication.
-The goal is to improve **analytical thinking**, **decoding skills**, and **tool-building fundamentals**.
+> Morse code is **not encryption** and should not be used for secure communication.
+> The goal is to improve **analytical thinking**, **decoding skills**, and **tool-building fundamentals**.
 
 ---
 
@@ -182,7 +182,7 @@ The goal is to improve **analytical thinking**, **decoding skills**, and **tool-
 
 ---
 
-#### 🪪 Author
+## 🪪 Author
 
 > **Creator: Shakal Bhau**
 
